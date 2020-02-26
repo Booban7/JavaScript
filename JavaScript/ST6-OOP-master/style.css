@@ -1,0 +1,189 @@
+#bodyRef {
+  display: flex;
+  background: rgb(75, 92, 107);
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#headDiv {
+  position: absolute;
+  top: 0px;
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  background: rgb(115, 15, 195);
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: white;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  z-index: 2;
+}
+
+#loginBTNRef {
+  position: absolute;
+  right: 10px;
+  border-radius: 3px;
+}
+
+#menuDiv {
+position: relative;
+top: 38px;
+left: 0px;
+background: rgb(189, 52, 209);
+min-width: 160px;
+height: 93.5vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-bottom-right-radius: 5px;
+font-size: x-large;
+box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+z-index: 1;
+}
+
+.menuButtons {
+  border: none;
+  background: none;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+#mainDiv {
+  position: relative;
+  display: flex;
+  top: 40px;
+  width: 100vw;
+  height: 93vh;
+  background: rgb(75, 92, 107);
+}
+
+.element {
+position: relative;
+display: flex;
+color: white;
+width: 98%;
+height: 98%;
+overflow: hidden;
+}
+
+.myHeader {
+  position: absolute;
+  margin: 0;
+  top: 20px;
+  left: 25px;
+  color: white;
+}
+
+.centerHeader {
+  position: relative;
+  left: 46%;
+  width: 100px;
+}
+
+#myForm {
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  border-radius: 3px;
+  background: linear-gradient(150deg, rgb(62, 76, 88) 10%, rgb(31, 38, 44) 100%);
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+}
+
+.newActivity {
+  position: relative;
+  width: 191px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  background: linear-gradient(150deg, rgb(62, 76, 88) 10%, rgb(31, 38, 44) 100%);
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+  left: 21px;
+  top: 300px;
+  margin-left: 10px;
+}
+.newActivity > button {
+  position: relative;
+  bottom: -40px;
+  left: 40px;
+}
+
+#myLogin {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 9px;
+  padding: 20px;
+  flex-direction: column-reverse;
+  width: 170px;
+  height: 300px;
+  background: linear-gradient(150deg, rgb(62, 76, 88) 10%, rgb(31, 38, 44) 60%);
+  border-radius: 3px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+}
+
+.errorMsg {
+display: none;
+position: absolute;
+right: 230px;
+top: 50px;
+width: 240px;
+height: 50px;
+color: red;
+background-color: white;
+padding: 20px;
+border: 1px solid black;
+border-radius: 3px;
+}
+
+#loggedInUser {
+position: absolute;
+font-size: x-small;
+right: 90px;
+}
+
+.myDay {
+  position: relative;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  top: 110px;
+  width: 130px;
+  height: 430px;
+  font-size: larger;
+  background: white;
+  color: rgb(75, 92, 107);;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.days-and-date {
+  position: absolute;
+  height: 40px;
+  margin: 8px 0 0 0;
+}
+
+.hours-div {
+  position: absolute;
+  left: 14px;
+  top: 60px;
+  right: 14.14px;
+}
+
+.hours-line {
+  width: 100px;
+  margin: 10px 0 13px 0;
+  border-color: rgba(0, 0, 0, 0.8);;
+}
